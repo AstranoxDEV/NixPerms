@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>de.syntaxjason.nixperms</groupId>
+        <artifactId>NixPerms</artifactId>
+        <version>1.0-EXPERIMENTAL</version>
+    </parent>
+
+    <artifactId>common</artifactId>
+
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>tnttastisch-repo-developers</id>
+            <name>TntTastisch Repository</name>
+            <url>https://repo.tnttastisch.de/developers</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.kyori</groupId>
+            <artifactId>adventure-api</artifactId>
+            <version>4.24.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.kyori</groupId>
+            <artifactId>adventure-text-minimessage</artifactId>
+            <version>4.24.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20250517</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tnttastisch</groupId>
+            <artifactId>languagemodule</artifactId>
+            <version>2.1-DEV</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.syntaxjason</groupId>
+            <artifactId>miradb</artifactId>
+            <version>1.0-BETA</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,4 @@
+name: NixPerms
+version: '1.0-EXPERIMENTAL'
+main: de.syntaxjason.nixPerms.NixPerms
+api-version: '1.20'

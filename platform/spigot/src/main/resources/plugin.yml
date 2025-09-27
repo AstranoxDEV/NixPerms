@@ -1,0 +1,4 @@
+name: spigot
+version: '1.0-EXPERIMENTAL'
+main: de.syntaxjason.spigot.Spigot
+api-version: '1.20'
