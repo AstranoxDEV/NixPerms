@@ -1,4 +1,13 @@
-name: paper
-version: '1.0-EXPERIMENTAL'
-main: de.syntaxjason.paper.Paper
-api-version: '1.20'
+name: NixPerms
+version: 2.0-EXPERIMENTAL
+main: de.astranox.nixperms.paper.NixPermsBukkit
+api-version: 1.14
+authors: [ Astranox ]
+description: A modern permission system for Paper servers.
+
+commands:
+  nixperms:
+    description: NixPerms main command
+    permission: nixperms.admin
+    usage: /nixperms <user|group|reload>
+    aliases: [ nix, nixpurrms ]
